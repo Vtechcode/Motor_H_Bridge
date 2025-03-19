@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fc60c7e1-3603-4753-a333-d4a66d2fbdcd")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 106.68 40.64)
+		(size 31.75 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6bf28f29-9bd0-4d91-9e75-592fa04ea5b5")
+		(property "Sheetname" "H-Bridge"
+			(at 106.68 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "H-Bridge.kicad_sch"
+			(at 106.68 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_H_bridge"
+				(path "/fc60c7e1-3603-4753-a333-d4a66d2fbdcd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 43.18)
+		(size 31.75 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b71456f5-c3d1-4a85-8733-f130e0be87f0")
+		(property "Sheetname" "Microcontroller_PWM"
+			(at 162.56 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller_pwm.kicad_sch"
+			(at 162.56 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_H_bridge"
+				(path "/fc60c7e1-3603-4753-a333-d4a66d2fbdcd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 39.37)
+		(size 34.29 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e49ab05c-1aa7-42f3-aba1-f836775de8a9")
+		(property "Sheetname" "POWER"
+			(at 38.1 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 38.1 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_H_bridge"
+				(path "/fc60c7e1-3603-4753-a333-d4a66d2fbdcd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
