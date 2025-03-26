@@ -6,7 +6,45 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 106.68 40.64)
+		(at 85.09 40.64)
+		(size 34.29 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19210d93-357c-42fe-83a1-375dc531de12")
+		(property "Sheetname" "shunt"
+			(at 85.09 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "shunt.kicad_sch"
+			(at 85.09 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Motor_H_bridge"
+				(path "/fc60c7e1-3603-4753-a333-d4a66d2fbdcd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 39.37)
 		(size 31.75 43.18)
 		(fields_autoplaced yes)
 		(stroke
@@ -18,7 +56,7 @@
 		)
 		(uuid "6bf28f29-9bd0-4d91-9e75-592fa04ea5b5")
 		(property "Sheetname" "H-Bridge"
-			(at 106.68 39.9284 0)
+			(at 179.07 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "H-Bridge.kicad_sch"
-			(at 106.68 84.4046 0)
+			(at 179.07 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +82,7 @@
 		)
 	)
 	(sheet
-		(at 162.56 43.18)
+		(at 229.87 40.64)
 		(size 31.75 40.64)
 		(fields_autoplaced yes)
 		(stroke
@@ -56,7 +94,7 @@
 		)
 		(uuid "b71456f5-c3d1-4a85-8733-f130e0be87f0")
 		(property "Sheetname" "Microcontroller_PWM"
-			(at 162.56 42.4684 0)
+			(at 229.87 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +103,7 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller_pwm.kicad_sch"
-			(at 162.56 84.4046 0)
+			(at 229.87 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)

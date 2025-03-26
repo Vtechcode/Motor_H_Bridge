@@ -397,6 +397,10 @@
     [
       "b71456f5-c3d1-4a85-8733-f130e0be87f0",
       "Microcontroller_PWM"
+    ],
+    [
+      "19210d93-357c-42fe-83a1-375dc531de12",
+      "shunt"
     ]
   ],
   "text_variables": {}
