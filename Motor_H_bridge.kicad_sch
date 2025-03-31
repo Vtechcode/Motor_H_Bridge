@@ -93,7 +93,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b71456f5-c3d1-4a85-8733-f130e0be87f0")
-		(property "Sheetname" "Microcontroller_PWM"
+		(property "Sheetname" "Logic"
 			(at 229.87 39.9284 0)
 			(effects
 				(font
@@ -102,7 +102,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "microcontroller_pwm.kicad_sch"
+		(property "Sheetfile" "Logic.kicad_sch"
 			(at 229.87 81.8646 0)
 			(effects
 				(font
